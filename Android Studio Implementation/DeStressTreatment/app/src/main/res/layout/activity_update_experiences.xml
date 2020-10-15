@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateExperiences"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUpdateMsg"
+        android:text="@string/tvUpdateMsgText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/etRecentExp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvUpdateMsg"
+        android:layout_marginTop="100dp"
+        android:hint="@string/etRecentExpHint"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnUpdateUserExp"
+        android:text="@string/btnUpdateUserExpText"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/etRecentExp"
+        android:layout_marginTop="100dp"
+        android:background="@color/blue1"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

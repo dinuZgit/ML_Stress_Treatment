@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StressCauseIdentification"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCauseText"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tvCauseTextText"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresultCauseText"
+        android:layout_below="@+id/tvCauseText"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textColor="@color/blue1"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnRecommendations"
+        android:layout_below="@+id/tvresultCauseText"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue2"
+        android:textColor="@android:color/white"
+        android:text="@string/btnRecommendationsText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".PsychAdapter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPsychName"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="@string/psychiatrist"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContactNumber"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="@string/contact_number"
+        android:layout_below="@+id/tvPsychName"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

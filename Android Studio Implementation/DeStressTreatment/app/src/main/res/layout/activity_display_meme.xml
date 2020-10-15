@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMeme">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/displayImage"
+        />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/layout"
+        android:layout_below="@+id/displayImage"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/likeMeme"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/ic_like"
+            android:layout_weight="0"/>
+
+        <ImageView
+            android:id="@+id/unlikeMeme"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_unlike" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/showMore"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:text="See Similar Memes"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

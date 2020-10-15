@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "768782481209",
+    "firebase_url": "https://destress-treatment.firebaseio.com",
+    "project_id": "destress-treatment",
+    "storage_bucket": "destress-treatment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768782481209:android:f738a02eb8ca1e94d3dae8",
+        "android_client_info": {
+          "package_name": "com.example.destresstreatment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768782481209-42vp99ntck09otobmcn57j98r6h3p1gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.destresstreatment",
+            "certificate_hash": "e0fc6057b2bbdb59c0cdfe89cc0d6394e8c31858"
+          }
+        },
+        {
+          "client_id": "768782481209-liiima6rhjsmgj11bcl3f9ekd8kkagns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDot_FUClazwMrQc7e_ThV7_OK5kt4KHAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768782481209-liiima6rhjsmgj11bcl3f9ekd8kkagns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

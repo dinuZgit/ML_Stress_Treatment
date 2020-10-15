@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DeStress Treatment</string>
+    <string name="btnUpdateExpText">Update Experience Data</string>
+    <string name="btnWhyStressedText">Why Am I Stressed?</string>
+    <string name="btnUpdatePrefText">Update Preferences</string>
+    <string name="tvUpdateMsgText">Update your most Recent experiences</string>
+    <string name="etRecentExpHint">Type in your recent experiences here</string>
+    <string name="btnUpdateUserExpText">Update my profile</string>
+    <string name="tvCauseTextText">You\'re stressed because of ... </string>
+    <string name="btnRecommendationsText">Relieve My Stress, Please!</string>
+    <string name="listen_to_music">Listen to Music</string>
+    <string name="see_memes">See Memes</string>
+    <string name="update_preferences">Update Preferences</string>
+    <string name="psychiatrist">Psychiatrist</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="back_to_home">Back to Home</string>
+</resources>
